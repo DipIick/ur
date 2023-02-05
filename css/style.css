@@ -1,0 +1,164 @@
+header, footer {
+    background-color: #38b6ff;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 10px;
+    background-color: silver;
+  }
+  
+  .post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  .post img {
+    margin: 20px;
+  }
+  
+  .footer-columns {
+    display: flex;
+  }
+  
+  .footer-column {
+    flex: 50%;
+    margin: 20px;
+  }
+  .post-info{
+    color: grey;
+  }
+  .comment{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  }
+  .author{
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .date{
+    color: silver;
+    margin-top: 0;
+    margin-bottom: 7px;
+  }
+  #sub-comments{
+    margin-left: 40px;
+  }
+  #sub-comments h4{
+    margin-bottom: 3px;
+  }
+  .comment h4{
+  margin-top: 3px;
+  }
+  #sub-comments h5{
+    margin-bottom: 4px;
+    color: silver;
+  }
+  #menu1{
+    position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  }
+  #menu ul {
+    position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  list-style: none;
+  }
+  #menu1>ul::after{
+    display: none; 
+  width: 100%;
+  height: 0px;
+  clear: both;
+  content:" ";
+  } 
+  #menu1 ul li{
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+  }
+  #menu1 ul li a{
+    display: block;
+  padding: 9px 25px 0px 25px;
+  font-size: 14px;
+  line-height: 1,3em;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 36px;
+  box-sizing: border-box;
+  color: #fff;
+  }
+  #menu1 ul li ul{
+    position: absolute;
+  top: 35px;
+  left: 0px;
+  display: none;
+  width: 200%;
+  background: #000;
+  }
+  #menu1 ul li:hover ul{
+    display: block;
+  }
+  #menu ul li ul li a{
+  display: block;
+  text-transform: none;
+  height: auto;
+  padding: 7px 25px;
+  width: 100%;
+  box-sizing: border-box;
+  border-top:1px solid firebrick ;
+  color: #fff;
+  }
+  #menu1 ul li ul li:first-child a{
+  border-top: 0px;
+  }
+  #menu1 ul li ul {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  display: none;
+  width: 200%;
+  background: #000;
+  }
+  #menu1 ul li ul li {
+      display: block;
+  }
+  #menu1 ul li ul li {
+  float: none;
+  width: 100%;
+  }
+  .carousele{
+    margin: 10px;
+  }
+  .carousele div img{
+    width: 100%;
+  }
+  body{
+    font-family: 'Montserrat', sans-serif;
+  }
+    
+
+
+
+  p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+  }
+  a{
+    font-family: 'Barlow  Swmi Condensed', sans-serif;
+font-weight: 600;
+letter-spacing: 2px;
+  }
